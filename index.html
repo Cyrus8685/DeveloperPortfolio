@@ -10,14 +10,17 @@
 </head>
     <body style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
         <header>
-            <nav>
-                <ul>
-                        <li><a id="logo" img src="Img/destiny_2_logo.0.webp" alt="Destiny Logo"></a></li>
-                        <li><a id="Home" href="#thingOne"><img src="Img/destiny_2_logo.0.webp" alt="Destiny Logo">Home</a></li>
-                        <li><a id="linkTwo" href="#thingTwo"><img src="Img/destiny_2_logo.0.webp" alt="Destiny Logo">My Services</a></li>
-                        <li><a id="linkThree" href="#thingThree"><img src="Img/destiny_2_logo.0.webp" alt="Desitny Logo">My Work</a></li>
+                <figure class="logo">
+                        <!--<img src="/Users/cyrus/bootcamp/homework/Module-02-Challenge/Img/destiny_2_logo.0.webp" alt="logo"> -->
+                </figure>
                 <button class="nav-toggle" aria-label="toggle navigation" >
-                <article class="hamburger"></article></button>
+                        <article class="hamburger"></article></button>
+            <nav class="nav">
+                <ul class="nav__list">
+                        <li class="nav__item"><a href="#Home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
@@ -95,7 +98,7 @@
                                 <img src="Img/destiny_2_logo.0.webp" alt="Desitny Logo" class="portfolio__img"></a>
                         </article>
                 </section>
-        <footer>
+        <footer class="footer">
                 <a href="mailto:jonathan.a.negron@gmail.com" class="footer-link">jonathan.a.negron@gmail.com</a>
                 <ul class="social-list">
                         <li class="social-list__item">
@@ -110,7 +113,18 @@
                                 <a class="social-list__link" href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a></li>
                         <li class="social-list__item">
                                 <a class="social-list__link" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <li class="social-list__item">
+                                <a class="social-list__link" href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                        <li class="social-list__item">
+                                <a class="social-list__link" href="https://www.javascript.com/"><i class="fa-brands fa-js"></i></a>
+                        <li class="social-list__item">
+                                <a class="social-list__link" href="https://dragon-lang.org/"><i class="fa-solid fa-dragon fa-flip-horizontal"></i></a>
+                        <li class="social-list__item">
+                                <a class="social-list__link" href="https://www.python.org/"><i class="fa-brands fa-python"></i></a>
                 </ul>
         </footer>
+
+        <script src="/Users/cyrus/bootcamp/homework/Module-02-Challenge/index.js"></script>  
+
     </body>
 </html>
